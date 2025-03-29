@@ -1,5 +1,5 @@
 {
-  "posts": [
+  "publicacion": [
     {
       "id": 1,
       "title": "json-server",
@@ -22,14 +22,33 @@
       "author": "VICTOR"
     }
   ],
-  "comments": [
+  "comentarios": [
     {
       "id": 1,
       "body": "some comment",
       "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "comente a su gusto",
+      "postId": 2,
+      "like": "si"
+    },
+    {
+      "id": 4,
+      "body": "some comment",
+      "postId": 4
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "perfil": [
+    {
+      "id": 1,
+      "name": "typicode",
+      "code": 3234
+    },
+    {
+      "id": 2,
+      "name": "Manuel Jimenez"
+    }
+  ]
 }

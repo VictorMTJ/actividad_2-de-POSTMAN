@@ -1,4 +1,5 @@
 {
+    "/post": "/publicacion",
     "/post/:id": "/publicacion/:id",
     "/comments/:id" : "/comentarios/:id",
     "/profile/:id" : "/perfil/:id"
